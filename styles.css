@@ -54,10 +54,20 @@ a {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   color: var(--primary-dark);
   font-size: 1.1rem;
   font-weight: 800;
   letter-spacing: 0.02em;
+}
+
+.brand img {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  object-fit: cover;
 }
 
 .nav-links {
